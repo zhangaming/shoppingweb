@@ -1,0 +1,310 @@
+
+#travel,#books,#furniture,#exercise,#mobilePhone,#beauty{
+	height: 523px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.chn-col1{
+	float: left;
+    width: 590px;
+    margin-right: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    height: 100%;
+}
+.chn-col2{
+	margin-right: 0px;
+}
+/*头部完成*/
+/*头背景颜色*/
+#beauty .pt-cloth .pt_hd{
+	background-color: #974676;
+}
+#beauty .pt-cloth2 .pt_hd{
+	 background-color: #cd375e;
+}
+#mobilePhone .pt-cloth .pt_hd{
+    background-color: #78538e;
+}
+#mobilePhone .pt-cloth2 .pt_hd{
+     background-color: #5e6c90;
+}
+#exercise .pt-cloth .pt_hd{
+    background-color: #3aaba9;
+}
+#exercise .pt-cloth2 .pt_hd{
+     background-color: #568e7d;
+}
+#furniture .pt-cloth .pt_hd{
+    background-color: #e16c46;
+}
+#furniture .pt-cloth2 .pt_hd{
+     background-color: #a56741;
+}
+#books .pt-cloth .pt_hd{
+    background-color: #756059;
+}
+#books .pt-cloth2 .pt_hd{
+     background-color: #865454;
+}
+#travel .pt-cloth .pt_hd{
+    background-color: #5981a3;
+}
+#travel .pt-cloth2 .pt_hd{
+     background-color: #708d33;
+}
+.pt_hd{
+	height: 60px;
+    padding: 16px 20px 16px 25px;
+}
+
+.pt_tit{
+	float: left;
+    font-size: 22px;
+    color: #fff;
+    height: 26px;
+    line-height: 26px;
+    font-weight: 400;
+    max-width: 100px;
+    font-family: fzzhengheis-el-gbregular;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pt_qrcode {
+    float: left;
+    position: relative;
+    height: 32px;
+    z-index: 10;
+    margin-left: 15px;
+    padding-top: 3px;
+}
+.pt_qrcode_ico {
+    width: 20px;
+    height: 20px;
+    background: url(../images/pt_qrcode@1x.png);
+}
+.pt_tags {
+    float: right;
+    max-width: 405px;
+    height: 28px;
+    text-align: right;
+    overflow: hidden;
+}
+.pt_tags_item {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 100px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pt_cloth .pt_tags_item {
+    border-color: #c187af;
+    background-color: #ac6f93;
+    color: #fff;
+}
+.pt_tags a{
+	text-decoration: none;
+	border-color: #c187af;
+	background-color: hsla(0,0%,100%,.2);
+}
+.pt_tags a:hover{
+	border-color: #fff;
+	cursor: pointer;
+	color: #fff;
+}
+.chn-col1 a:hover{
+	cursor: pointer;
+}
+/*头部完成*/
+/*接下来是底部*/
+.pt_bd_wrapper {
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.pt_bd {
+    position: relative;
+    overflow: hidden;
+}
+.pt_cover{
+	position: relative;
+    float: left;
+    width: 183px;
+    height: 260px;
+    overflow: hidden;
+    margin-right: 10px;
+    background-color: #f7f7f7;
+}
+.pt_cover_img {
+    display: block;
+    width: 193px;
+    height: 260px;
+    position: absolute;
+    right: -10px;
+}
+.pt_bi {
+    float: left;
+    width: 376px;
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+.pt_bi_split_h {
+    top: 130px;
+    left: 0;
+    width: 500px;
+    height: 1px;
+    background-color: #e6e6e6;
+}
+.pt_bi_split {
+    position: absolute;
+    display: block;
+}
+.pt_bi_split_v {
+    top: 0;
+    left: 188px;
+    width: 1px;
+    height: 500px;
+    background-color: #e6e6e6;
+}
+.pt_bi_item {
+    position: relative;
+    float: left;
+    width: 188px;
+    height: 130px;
+}
+
+.pt_bi_tit {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 14px;
+    color: red;
+    max-width: 130px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    z-index: 1;
+}
+/*字体颜色*/
+#beauty .pt_bi1 .pt_bi_tit {
+    color: #974676;
+}
+#beauty .pt_bi2 .pt_bi_tit {
+    color: #cd375e;
+}
+#mobilePhone .pt_bi1 .pt_bi_tit {
+    color: #78538e;
+}
+#mobilePhone .pt_bi2 .pt_bi_tit {
+    color: #5e6c90;
+}
+#exercise .pt_bi1 .pt_bi_tit {
+    color: #3aaba9;
+}
+#exercise .pt_bi2 .pt_bi_tit {
+    color: #568e7d;
+}
+#furniture .pt_bi1 .pt_bi_tit {
+    color: #e16c46;
+}
+#furniture .pt_bi2 .pt_bi_tit {
+    color: #a56741;
+}
+#books .pt_bi1 .pt_bi_tit {
+    color: #756059;
+}
+#books .pt_bi2 .pt_bi_tit {
+    color: #865454;
+}
+#travel .pt_bi1 .pt_bi_tit {
+    color: #5981a3;
+}
+#travel .pt_bi2 .pt_bi_tit {
+    color: #708d33;
+}
+.pt_bi_promo {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    font-size: 12px;
+    color: #666;
+    max-width: 50px;
+    z-index: 1;
+}
+.pt_bi_img {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.pt_more {
+    clear: both;
+    height: 130px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.pt_more_item {
+    float: left;
+    width: 183px;
+    height: 130px;
+    overflow: hidden;
+    margin-right: 10px;
+    position: relative;
+    background-color: #f7f7f7;
+}
+.pt_more_img {
+    display: block;
+    overflow: hidden;
+    width: 193px;
+    height: 130px;
+    position: absolute;
+    right:-10px;
+}
+/*底部广告*/
+.pt_ft{
+	padding: 10px 0 0;
+    clear: both;
+    background-color: #fff;
+}
+.pt_logo_list_wrapper {
+    width: 100%;
+    height: 35px;
+    /*background-color: red;*/
+    overflow: hidden;
+}
+.pt_logo_list_wrapper ul {
+	margin-left: 15px;
+	height: 35px;
+}
+.pt_logo_list_wrapper ul li{
+	float: left;
+    border-right: 1px solid #dedfe0;
+    padding: 0 12px;
+    height: 20px;
+    margin-top: 7px;
+}
+   
+.pt_logo_list_wrapper ul li img{
+ display: block;
+    width: 70px;
+    height: 35px;
+    margin-top: -7px;
+}

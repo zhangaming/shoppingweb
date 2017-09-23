@@ -1,0 +1,265 @@
+/*发现好货*/
+#rankList{}
+#rankList .w{
+	height: 444px;
+	/*background-color: green;*/
+	margin-top: 30px;
+}
+#rankList .rankList_row{
+	width: 32%;
+	height: 100%;
+	float: left;
+	/*background-color: blue;*/
+	margin-right: 10px;
+	overflow: hidden;
+}
+/*排行榜*/
+#all{
+	width: 100%;
+	height:100%;
+	/*border: 1px red solid;*/
+}
+#box_hd{
+	width: 390;
+	height: 55px;
+	position: relative;
+	overflow: hidden;
+}
+.box_hd1{
+	background-color: #4998a1;
+
+}
+.box_hd2{
+	background-color: #76488e;
+}
+.box_hd3{
+	background-color: #e77005;
+}
+.hd_block{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 19px solid #f6f6f6;
+    border-right: 19px solid transparent
+}
+.hd_icon{
+	width: 28px;
+    height: 28px;
+    background-image: url("../images/sprite_index@1x.png");
+    position: absolute;
+    /*background-color: #fff;*/
+    left: -4px;
+    top: -4px;
+}
+#rankList .hd_icon1{
+	   background-position: -190px -96px;
+}
+#rankList .hd_icon2{
+	   background-position: 0px -160px;
+}
+#rankList .hd_icon3{
+	   background-position: -190px 0px;
+}
+#box_hd h3{
+	position: absolute;
+	left: 25px;
+	font-family: fzzhengheis-el-gbregular;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    padding-top: 9px;
+}
+#box_hd p{
+	color:#fff;
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	padding: 10px;
+}
+
+#box_tab{
+	padding: 6px 0 7px;
+ 	font-size: 0;
+    border-bottom: 1px solid #e7e7e7;
+    width: 370px;
+    height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+#all a{
+	display: inline-block;
+	color: #666;
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 14px;
+    width: 77px;
+    border-right: 1px solid #d2d1d1;
+    text-align: center;
+    overflow: hidden;
+    margin-left: -10px;
+}
+#all a:hover{
+	color: #c81623;
+}
+#tiao{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 58px;
+    height: 2px;
+    background: #f10214;
+}
+#all img{
+	display: none;
+	height: 100%;
+	width: 100%;
+}
+#all img:nth-child(1){
+	display: block;
+}
+.on{
+	display: block;
+}
+/*发生好货 优质生活*/
+#box_fd{
+	width: 100%;
+	padding: 10px;
+    height: 369px;
+	background-color: #fff;
+}
+#box_fd ul{
+	width: 370px;
+    height: 363px;
+    /*background-color: green;*/
+    overflow: hidden;
+}
+#box_fd ul li{
+	float: left;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    display: block;
+    width: 185px;
+    height: 120px;
+    position: relative;
+}
+#box_fd ul li .find_item_name {
+    font-size: 14px;
+    color: #4998a1;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 80px;
+    line-height: 20px;
+    z-index: 1;
+    word-wrap: break-word;
+}
+#box_fd ul li .find_item_img {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
+/*三张图分割*/
+#partingLine{}
+#partingLine .w{
+	height: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#partingLine .w img{
+	float: left;
+}
+/*享品质*/
+#pinzi{}
+#pinzi .w{
+	margin: 0 auto;
+}
+.ftit_inner {
+    overflow: hidden;
+    padding: 0 0 50px;
+    height: 35px;
+    background: url("../images/xpzBG.png") repeat-x 0 18px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+
+}
+.ftit_inner h3 {
+    display: inline;
+    padding: 0 50px;
+    background-color: #f6f6f6;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333;
+    font-family: fzzhengheis-el-gbregular;
+}
+.ftit_row{
+	overflow: hidden;
+	width: 1200px;
+    height: 530px;
+}
+.entry_list {
+	width: 100%;
+    height: 100%;
+}
+.entry_list li{
+	width: 390px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 0 4px 10px;
+    background-color: #fff;
+}
+.entry_img{
+    display: block;
+    width: 400px;
+    height: 170px;
+    position: absolute;
+    right: -10px;
+}
+.entry_bg{
+	position: absolute;
+	transform: translate(0);
+    z-index: 1;
+    width: 36%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    color: #fff;
+    opacity: .9;
+    backface-visibility: hidden;
+}
+.entry_info{
+	padding-top: 45px;
+    width: 100px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+.entry_info_tit {
+   overflow: hidden;
+    height: 40px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-family: fzzhengheis-el-gbregular;
+    font-weight: 400;
+}
+.entry_info_desc{
+	overflow: hidden;
+    margin-top: 8px;
+    height: 32px;
+    line-height: 16px;
+}
+
+/*爱生活*/
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="icon" type="image/x-icon" href="./icon/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./css/login.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+		<!-- 头部 -->
+		<div id="login_tit" class="w">
+			<a href="./index.html">
+				<img src="./images/logo0.png" alt="">
+			</a>
+		</div>
+		<div id="login_content">
+			<div id="login_content_row" class="w">
+				<div class="login_content_bg">
+					<img src="./images/login_bg.jpg" alt="">
+				</div>
+
+				<div class="login-box">
+					<div class="register">
+						<div>
+							<ul id="register_ul">
+								<li class="zhuce zhuceCorol">邮箱注册</li>
+								<li class="zhuce">手机号注册</li>
+							</ul>
+						</div>
+						<div id="register_row">
+							<div class="youxiang">
+								<form >
+									<div class="user_name">
+										<label for="user"><img src="./images/user.png" alt=""></label>
+										<input type="text" name="" id="user" placeholder="请输入邮箱">
+									</div>
+									<div class="user_password">
+										<label for="password"><img src="./images/password.png" alt=""></label>
+										<input type="password" name="" id="password" placeholder="请输入密码">
+									</div>
+									<div class="user_password">
+										<label for="password"><img src="./images/password.png" alt=""></label>
+										<input type="password" name="" id="password" placeholder="确认密码">
+									</div>
+									
+								</form>
+								<div class="login-links">
+	                				<label for="remember-me"><input id="remember-me" type="checkbox">点击表示你同意商城的《服务协议》</label>
+	           					</div>
+	           					<div class="login_bottom">
+									<input type="submit" name="" value="注 册" class="am-btn am-btn-primary am-btn-sm">
+								</div>
+							</div>
+							<div class="phone">
+								<form >
+								<div class="user_name">
+									<label for="user"><img src="./images/user.png" alt=""></label>
+									<input type="text" name="" id="user" placeholder="请输入手机号">
+								</div>
+								<div class="user_password">
+									<label for="code"><img src="./images/yanzhengma.png" alt=""></label>
+									<input type="password" name="" id="code" placeholder="请输入验证码">
+									<span id="dyMobileButton">获取</span>
+								</div>
+								<div class="user_password">
+									<label for="password"><img src="./images/password.png" alt=""></label>
+									<input type="password" name="" id="password" placeholder="请输入密码">
+								</div>
+								<div class="user_password">
+									<label for="password"><img src="./images/password.png" alt=""></label>
+									<input type="password" name="" id="password" placeholder="确认密码">
+								</div>
+								
+							</form>
+							<div class="login-links">
+                				<label for="remember-me"><input id="remember-me" type="checkbox">点击表示你同意商城的《服务协议》</label>
+           					</div>
+           					<div class="login_bottom">
+								<input type="submit" name="" value="注 册" class="am-btn am-btn-primary am-btn-sm">
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</div>
+		<div id="login_footer" calss="w">
+						<div class="footer-hd ">
+							<p>
+								<!-- <a href="# ">恒望科技</a> -->
+								<b>|</b>
+								<a href="index.html ">商城首页</a>
+								<b>|</b>
+								<a href="# ">支付宝</a>
+								<b>|</b>
+								<a href="# ">物流</a>
+							</p>
+						</div>
+						<div class="footer-bd ">
+							<p>
+								<a href="# ">关于我们</a>
+								<a href="# ">合作伙伴</a>
+								<a href="# ">联系我们</a>
+								<a href="# ">网站地图</a>
+								<em>© 2015-2025 xxxxx.com 版权所有</em>
+							</p>
+						</div>
+		</div>
+
+		<script type="text/javascript">
+			$(function(){
+				$(".zhuce").eq(0).click(function(event) {
+					$(".phone").hide();
+					$(".youxiang").show();
+					$(".zhuce").eq(0).addClass('zhuceCorol').siblings().removeClass('zhuceCorol');
+				});
+				$(".zhuce").eq(1).click(function(event) {
+					$(".phone").show();
+					$(".youxiang").hide();
+					$(".zhuce").eq(1).addClass('zhuceCorol').siblings().removeClass('zhuceCorol');
+				});
+			})
+		</script>
+</body>
+</html>

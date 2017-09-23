@@ -333,11 +333,9 @@ input{
 	padding-bottom: 20px;
     width: 100%;
     background-color: #6e6568;
-    /*padding: 10px;*/
     height: 100%
 }
 #fs .w .cate-menu li{
-    /*margin-bottom: 10px;*/
     overflow: hidden;
     padding-left: 12px;
     height: 28px;
@@ -353,7 +351,6 @@ input{
     text-decoration: none;
 }
 #fs .w .fs_col2{
-	background-color: yellow;
 	width: 790px;
 	height: 100%;
 	float: left;
@@ -362,7 +359,6 @@ input{
 	    position: relative;
    		margin-bottom: 10px;
    		height: 340px;
-   		background-color: green;
    		overflow: hidden;
 }
 .fs_col2 #ad_main .indicator{
@@ -423,7 +419,6 @@ input{
 		}
 .fs_col2 #ads_extend{
     height: 130px;
-    background-color: red;
 }
 /*右侧样式 */
 #fs .w .fs_col3{

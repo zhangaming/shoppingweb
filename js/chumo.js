@@ -1,14 +1,14 @@
 $(function(){
 	// 促销 公告的移动条
-	$(".news_first").mouseover(function(event) {
+	$(".news_first").click(function(event) {
 		$("#chuXiao").show();
 		$("#gongGao").hide();
-		$(".news_tab_active").animate({left: '10'}, "slow");
+		$(".news_tab_active").stop().animate({left: '10'}, "400");
 	});
-	$(".news_last").mouseover(function(event) {
+	$(".news_last").click(function(event) {
 		$("#chuXiao").hide();
 		$("#gongGao").show();
-		$(".news_tab_active").animate({left: '60'}, "slow");
+		$(".news_tab_active").stop().animate({left: '60'}, "400");
 	});
 	// 触摸切换商品列表 移动上面又恢复轮播图
 	$(".cate_menu_item").each(function(i) {
